@@ -35,7 +35,16 @@ DAG `orders_pipeline` terdiri dari 3 task:
 - Engine: MergeTree, ORDER BY (order_id, product_id)
 
 ### 3. Metabase Dashboard
-*(Screenshot dan penjelasan akan ditambahkan setelah implementasi)*
+**Dashboard**
+Dashboard Orders Dashboard - Kelompok 19 (Thariq & Brilian) menggabungkan seluruh 5 questions dalam satu tampilan:
+
+Baris atas: Order per Jam + Reorder Rate per Department
+Baris tengah: Produk per Department + Order per Hari
+Baris bawah: Top 10 Produk Terlaris (lebar penuh)
+
+**Screenshot — Dashboard Lengkap**
+<img width="1686" height="1498" alt="image" src="https://github.com/user-attachments/assets/cfc6d765-810e-4709-a405-8b859c753f72" />
+
 
 ---
 
