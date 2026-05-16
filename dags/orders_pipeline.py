@@ -5,8 +5,10 @@ from clickhouse_driver import Client
 
 API_URL = "http://96.9.212.102:8000/orders"
 
-CLICKHOUSE_HOST = "clickhouse"
+CLICKHOUSE_HOST = "clickhouse-server"
 CLICKHOUSE_PORT = 9000
+CLICKHOUSE_USER = "admin"
+CLICKHOUSE_PASSWORD = "rahasia"
 CLICKHOUSE_DB   = "mci_db"
 CLICKHOUSE_TABLE = "orders"
 
@@ -58,7 +60,7 @@ def orders_pipeline():
 
     @task()
     def load(rows: list) -> None:
-        client = Client(host=CLICKHOUSE_HOST, port=CLICKHOUSE_PORT)
+        client = Client(host=CLICKHOUSE_HOST, port=CLICKHOUSE_PORT, user=CLICKHOUSE_USER, password=CLICKHOUSE_PASSWORD)
 
         client.execute(f"CREATE DATABASE IF NOT EXISTS {CLICKHOUSE_DB}")
 
