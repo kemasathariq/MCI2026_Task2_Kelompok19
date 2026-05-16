@@ -80,7 +80,8 @@ extract  →  transform  →  load
 
 ### Screenshot — DAG Berhasil
 
-*(tambahkan screenshot Graph View semua task hijau di sini)*
+<img width="2879" height="1626" alt="image" src="https://github.com/user-attachments/assets/c8c60ade-5cc6-4ffe-95ce-571877cfa8de" />
+
 
 ---
 
@@ -151,7 +152,8 @@ curl "http://admin:rahasia@localhost:8123/?query=SELECT+uniqExact(order_id)+FROM
 
 ### Screenshot — Data Berhasil Masuk
 
-*(tambahkan screenshot hasil query count() di sini)*
+<img width="2685" height="385" alt="image" src="https://github.com/user-attachments/assets/eb7e0c13-2c64-4750-81bb-d441f7324bbb" />
+
 
 ---
 
@@ -172,10 +174,6 @@ curl "http://admin:rahasia@localhost:8123/?query=SELECT+uniqExact(order_id)+FROM
 | Username | admin |
 | Password | rahasia |
 
-### Screenshot — Koneksi Berhasil
-
-*(tambahkan screenshot koneksi berhasil di sini)*
-
 ---
 
 ### Questions yang Dibuat
@@ -192,7 +190,8 @@ ORDER BY total_produk DESC
 
 **Visualisasi:** Bar chart | **Insight:** Departemen `produce` mendominasi dengan 290+ produk
 
-*(tambahkan screenshot Q1 di sini)*
+<img width="2879" height="1544" alt="image" src="https://github.com/user-attachments/assets/3906ae22-65d8-4d18-8ce8-197d8e86a59a" />
+
 
 ---
 
@@ -208,7 +207,8 @@ ORDER BY order_dow ASC
 
 **Visualisasi:** Bar chart | **Insight:** Hari 0 (Minggu) dan hari 3 (Rabu) memiliki order terbanyak
 
-*(tambahkan screenshot Q2 di sini)*
+<img width="2879" height="1543" alt="image" src="https://github.com/user-attachments/assets/42892aac-254e-4d70-85af-ae913f69ee13" />
+
 
 ---
 
@@ -224,7 +224,8 @@ ORDER BY order_hour_of_day ASC
 
 **Visualisasi:** Line chart | **Insight:** Peak order terjadi pada jam 10:00–15:00
 
-*(tambahkan screenshot Q3 di sini)*
+<img width="2879" height="1540" alt="image" src="https://github.com/user-attachments/assets/10152e24-5dbf-4697-9f52-bcfaa8f19678" />
+
 
 ---
 
@@ -240,7 +241,8 @@ ORDER BY reorder_rate_pct DESC
 
 **Visualisasi:** Bar chart | **Insight:** Departemen `pets` dan `alcohol` memiliki reorder rate tertinggi (~100%)
 
-*(tambahkan screenshot Q4 di sini)*
+<img width="2879" height="1546" alt="image" src="https://github.com/user-attachments/assets/7414e2f7-2c13-472d-b1f0-762323b73851" />
+
 
 ---
 
@@ -257,7 +259,8 @@ LIMIT 10
 
 **Visualisasi:** Bar chart | **Insight:** Banana menjadi produk paling sering dipesan (11x), diikuti Bag of Organic Bananas (10x)
 
-*(tambahkan screenshot Q5 di sini)*
+<img width="2879" height="1555" alt="image" src="https://github.com/user-attachments/assets/9e90ea66-0843-46aa-9b20-ddb168c3f3ba" />
+
 
 ---
 
@@ -271,7 +274,8 @@ Dashboard `Orders Dashboard - Kelompok 19 (Thariq & Brilian)` menggabungkan selu
 
 ### Screenshot — Dashboard Lengkap
 
-*(tambahkan screenshot dashboard di sini)*
+<img width="1682" height="1536" alt="image" src="https://github.com/user-attachments/assets/3ff3ba12-e562-4b01-bcd0-5115ae2eb571" />
+
 
 ---
 
