@@ -39,9 +39,7 @@ DAG `orders_pipeline` terdiri dari 3 task:
 Dashboard Orders Dashboard - Kelompok 19 (Thariq & Brilian) menggabungkan seluruh 5 questions dalam satu tampilan:
 
 - Baris atas: Order per Jam + Reorder Rate per Department
-
 - Baris tengah: Produk per Department + Order per Hari
-
 - Baris bawah: Top 10 Produk Terlaris (lebar penuh)
 
 **Screenshot — Dashboard Lengkap**
