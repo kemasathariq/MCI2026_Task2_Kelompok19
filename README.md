@@ -44,7 +44,7 @@ DAG `orders_pipeline` terdiri dari 3 task:
 | Metrik | Nilai |
 |---|---|
 | Total orders | 100 |
-| Total rows (flattened) | 1111 |
+| Total rows (flattened) | 979 |
 | Avg produk per order | 11.1 |
 | Nulls di days_since_prior_order | 5 |
 | Top department | produce (321 produk) |
